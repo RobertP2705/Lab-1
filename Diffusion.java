@@ -1,7 +1,7 @@
 class Diffusion{
    public static void main(String []args) {
-      int trials = 5;
-      int[] steps = {20,30,40,50,60,70};
+      int trials = 10;
+      int[] steps = {10,20,30,300,4000,50000,100000};
       for(int i = 0; i < steps.length; i++){
          for(int j = 1; j<=trials;j++){
             Particle a = new Particle();
